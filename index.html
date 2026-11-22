@@ -45,7 +45,7 @@ h3 span{font-size:14px;font-weight:500;letter-spacing:-0.01em;color:var(--mute);
 .body{display:grid;grid-template-columns:minmax(0,280px) minmax(0,1fr);gap:56px;align-items:start}
 .info{position:sticky;top:calc(var(--bar) + 76px)}
 .desc{margin:0 0 28px;max-width:34ch;line-height:1.7}
-.facts{margin:0;border-top:1px solid var(--line)}
+.facts{margin:0}.facts>div:first-child{padding-top:0}.facts>div:last-child{border-bottom:0;padding-bottom:0}
 .facts div{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.5}
 .facts dt{color:var(--mute);font-size:13px}.facts dd{margin:0;font-weight:500}
 .row{display:grid;gap:20px;margin-bottom:24px}
